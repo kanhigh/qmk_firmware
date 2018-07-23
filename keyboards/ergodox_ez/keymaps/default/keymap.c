@@ -124,8 +124,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // MEDIA AND MOUSE
 [MDIA] = LAYOUT_ergodox(
        RESET,   KC_CALC, KC_MYCM, KC_WSCH, KC_WBAK, KC_WFWD, KC_WREF,
-       KC_TRNS, KC_TRNS, KC_TRNS, CTRL(KC_E),  KC_TRNS, KC_TRNS, KC_WH_U,
-       KC_TRNS, CTRL(KC_A), KC_TRNS, KC_DELT, KC_RGHT, KC_TRNS,
+       KC_TRNS, KC_TRNS, KC_TRNS, LCTL(KC_E),  KC_TRNS, KC_TRNS, KC_WH_U,
+       KC_TRNS, LCTL(KC_A), KC_TRNS, KC_DELT, KC_RGHT, KC_TRNS,
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LEFT, KC_WH_D,
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                                            KC_TRNS, KC_TRNS,
@@ -137,7 +137,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                  KC_BSPC, KC_MS_L,       KC_MS_D,       KC_MS_R, KC_TRNS, KC_TRNS,
        KC_LEFT,  KC_DOWN, KC_TRNS,       KC_TRNS,       KC_TRNS, KC_TRNS, KC_TRNS,
                           KC_TRNS,       KC_TRNS,       KC_TRNS, KC_TRNS, KC_TRNS,
-       KC_TRNS, KC_TRNS,
+       LCTL(KC_LEFT), LCTL(KC_RGHT),
        KC_TRNS,
        KC_TRNS, KC_BTN2, KC_BTN1
 ),
